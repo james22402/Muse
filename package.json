@@ -1,0 +1,20 @@
+{
+  "name": "muse",
+  "version": "0.1.0",
+  "description": "A cue to cue PDF viewer",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild-paks": "npm rebuild --build-from-source muhammara && electron-rebuild"
+  },
+  "author": "James Pinckney (@james22402)",
+  "license": "CC0-1.0",
+  "dependencies": {
+    "electron": "^10.1.1",
+    "hummus-recipe": "^2.0.0",
+    "pdfreader": "^1.0.7"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^2.0.3"
+  }
+}
